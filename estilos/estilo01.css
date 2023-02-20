@@ -1,0 +1,27 @@
+
+* { font-family: Arial, Helvetica, sans-serif;  }
+
+h1 { color:rgb(124, 87, 2);
+        text-align: center }
+
+p { color:rgb(70, 54, 0); }
+
+table {
+    text-align:left ;
+    background-color: rgba(210, 175, 99, 0.845); }
+
+td{ text-align: left; padding: 5px; }
+
+.foto4x4 { width: 70%; }
+
+@media only screen and (max-width: 720px) {
+    .fotoini { width: 70%   }
+    .foto4x4 { width: 100%; }
+  }
+
+  @media only screen and (min-width: 721px) {
+    .fotoini {
+        width: 20%
+    }
+  }
+  
